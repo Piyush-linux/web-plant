@@ -13,48 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600&family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
     <!-- bulma -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css" integrity="sha512-IgmDkwzs96t4SrChW29No3NXBIBv8baW490zk5aXvhCD8vuZM3yUSkbyTBcXohkySecyzIrUwiF/qV0cuPcL3Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style type="text/css">
-    .iconify{
-    	font-size: 3rem;
-    }
-    hr {
-        background-color: #323030;
-        width: 10%;
-    }
-
-    .f1 {
-        font-family: Josefin Sans;
-    }
-
-    .f2 {
-        font-family: Nothing You Could Do;
-    }
-
-    .navbar {
-        background-color: transparent;
-    }
-
-    .hero.is-fullheight .hero-body {
-        justify-content: center;
-        align-items: flex-end;
-        flex-direction: column;
-    }
-
-    .hero-body .title {
-        font-size: 4rem;
-    }
-
-    .bg {
-        background: url("hero.jpg") no-repeat fixed center / cover;
-    }
-
-    .cen {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    </style>
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
@@ -89,73 +49,149 @@
     </section>
     <!-- sec -->
     <div class="columns is-multiline is-gapless has-background-white">
+        <!-- c1 -->
         <div class="column cen is-half">
-            <h1 class="title f1 mb-0">P H I L I P</h1>
+            <h1 class="title f1 mb-0 pt-6">J O U R N E Y</h1>
             <hr>
-                <p class="content f1 is-medium px-6 has-text-centered">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
+            <p class="content f1 is-medium has-text-centered pb-5 px-5">
+                Follow along on a Bird of Paradise’s journey from the greenhouse to your home, and learn how we care for your plant every step of the way.
+            </p>
         </div>
         <div class="column is-half">
             <figure class="image">
-            	<img src="img1.jpg">
+                <img src="img/img1.jpg">
             </figure>
         </div>
-        <div class="column is-half">
+        <!-- c2 -->
+        <div class="column is-half hide">
             <figure class="image">
-            	<img src="img2.jpg">
+                <img src="img/img2.jpg">
             </figure>
         </div>
-        <div class="column cen is-half">
-            <h1 class="title f1 mb-0">P H I L I P</h1>
+        <div class="column cen is-half hide">
+            <h1 class="title f1 mb-0 pt-6">J O I N</h1>
             <hr>
-                <p class="content f1 is-medium px-6 has-text-centered">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
+            <p class="content f1 is-medium px-6 has-text-centered">
+                Join the plant family for offers, care tips, and more!
+            </p>
+            <h1 class="title is-5 f1 mb-0 pt-6">S U P P O R T</h1>
+            <hr class="m-3">
+            <ul class="content has-text-grey">
+                <li class="my-3">
+                    <span class="icon-text">
+                        <div class="icon">
+                            <span class="iconify" data-icon="feather:zap" data-inline="false"></span>
+                        </div>
+                        <span class="has-text-weight-bold">
+                            Services
+                        </span>
+                    </span>
+                </li>
+                <li class="my-3">
+                    <span class="icon-text">
+                        <div class="icon">
+                            <span class="iconify" data-icon="feather:zap" data-inline="false"></span>
+                        </div>
+                        <span class="has-text-weight-bold">
+                            Sponsor
+                        </span>
+                    </span>
+                </li>
+                <li class="my-3">
+                    <span class="icon-text">
+                        <div class="icon">
+                            <span class="iconify" data-icon="feather:zap" data-inline="false"></span>
+                        </div>
+                        <span class="has-text-weight-bold">
+                            Buy a Coffe
+                        </span>
+                    </span>
+                </li>
+                <li class="my-3">
+                    <span class="icon-text">
+                        <div class="icon">
+                            <span class="iconify" data-icon="feather:zap" data-inline="false"></span>
+                        </div>
+                        <span class="has-text-weight-bold">
+                            Delivery
+                        </span>
+                    </span>
+                </li>
+            </ul>
         </div>
+        <!-- c3 -->
         <div class="column cen is-half">
-        	<h1 class="title f1 mb-0">P H I L I P</h1>
+            <h1 class="title f1 mb-0 pt-6">P I C K S</h1>
             <hr>
-                <p class="content f1 is-medium px-6 has-text-centered">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
+            <p class="content f1 is-medium has-text-centered pb-5 px-5">
+                Grow your indoor garden with our newest selection of plants, straight from the greenhouse.
+            </p>
+            <ul class="box content has-text-weight-bold f1">
+                <li class="my-4">
+                    <span class="icon-text">
+                        <span class="icon">
+                            <span class="iconify" data-icon="iconoir:keyframe" data-inline="false"></span>
+                        </span>
+                        <span>Lorem ipsum dolor, sit amet consectetur adipisicing.</span>
+                    </span>
+                </li>
+                <li class="my-4">
+                    <span class="icon-text">
+                        <span class="icon">
+                            <span class="iconify" data-icon="iconoir:keyframe" data-inline="false"></span>
+                        </span>
+                        <span>Lorem ipsum dolor, sit amet consectetur adipisicing.</span>
+                    </span>
+                </li>
+                <li class="my-4">
+                    <span class="icon-text">
+                        <span class="icon">
+                            <span class="iconify" data-icon="iconoir:keyframe" data-inline="false"></span>
+                        </span>
+                        <span>Lorem ipsum dolor, sit amet consectetur adipisicing.</span>
+                    </span>
+                </li>
+                <li class="my-4">
+                    <span class="icon-text">
+                        <span class="icon">
+                            <span class="iconify" data-icon="iconoir:keyframe" data-inline="false"></span>
+                        </span>
+                        <span>Lorem ipsum dolor, sit amet consectetur adipisicing.</span>
+                    </span>
+                </li>
+            </ul>
         </div>
-        <div class="column is-half">
+        <div class="column is-half cen">
             <figure class="image">
-            	<img src="img3.jpg">
+                <img src="img/img3.jpg">
             </figure>
         </div>
     </div>
     <!-- footer -->
     <footer class="footer">
-    	<div class="columns">
-    		<div class="column">
-    			<div class="icon is-medium has-text-link mx-2">
-    				<span class="iconify" data-icon="el:facebook" data-inline="false"></span>
-    			</div>
-    			<div class="icon is-medium has-text-info mx-2">
-    				<span class="iconify" data-icon="vaadin:twitter-square" data-inline="false"></span>
-    			</div>
-    			<div class="icon is-medium has-text-danger mx-2">
-    				<span class="iconify" data-icon="fa-brands:instagram-square" data-inline="false"></span>
-    			</div>
-    			<div class="icon is-medium has-text-dark mx-2">
-    				<span class="iconify" data-icon="whh:reademailalt" data-inline="false"></span>
-    			</div>
-    		</div>
-    		<div class="column">
-    			<div class="content">
-    				<div class="buttons is-right">
-    					<div class="button is-light">B L O G S</div>
-    					<div class="button is-light">S U B S C R I B E</div>
-    					<div class="button is-dark">P R O J E C T</div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
+        <div class="columns">
+            <div class="column has-text-centered">
+                <div class="icon is-medium has-text-link mx-2">
+                    <span class="iconify" data-icon="el:facebook" data-inline="false"></span>
+                </div>
+                <div class="icon is-medium has-text-info mx-2">
+                    <span class="iconify" data-icon="vaadin:twitter-square" data-inline="false"></span>
+                </div>
+                <div class="icon is-medium has-text-danger mx-2">
+                    <span class="iconify" data-icon="fa-brands:instagram-square" data-inline="false"></span>
+                </div>
+                <div class="icon is-medium has-text-dark mx-2">
+                    <span class="iconify" data-icon="whh:reademailalt" data-inline="false"></span>
+                </div>
+            </div>
+            <div class="column has-text-centered">
+                <div class="buttons is-centered">
+                    <div class="button is-light">B L O G S</div>
+                    <div class="button is-light">S U B S C R I B E</div>
+                    <div class="button is-dark">P R O J E C T</div>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 

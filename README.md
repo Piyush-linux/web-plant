@@ -3,7 +3,7 @@
 ### T O D O
 - [x] Folder setup (img)
 - [x] Responsive : margin , padding , diff-img , font-size
-- [ ] Feature : Content
+- [x] Feature : Content
 
 <!-- 
 1. wireframe

@@ -1,14 +1,5 @@
 /* m e d i a */
 
-@media only screen and (max-width: 750px) {
-    .bg {
-        background: url("img/mobile.jpg") no-repeat center / cover;
-    }
-
-    .hide {
-        display: none;
-    }
-}
 
 /* P R E */
 
@@ -61,4 +52,14 @@ hr {
     font-size: 4rem;
 }
 
-.p {}
+/* m e d i a */
+
+@media only screen and (max-width: 750px) {
+    .bg {
+        background: url("img/mobile.jpg") no-repeat fixed center / cover;
+    }
+
+    .hide {
+        display: none;
+    }
+}

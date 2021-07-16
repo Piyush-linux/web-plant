@@ -1,6 +1,7 @@
 # P L A N T
 
 ### T O D O
+- [ ] BUG: @media Query not working{ img , width }
 - [x] Folder setup (img)
 - [x] Responsive : margin , padding , diff-img , font-size
 - [x] Feature : Content

@@ -2,6 +2,9 @@
 
 
 /* P R E */
+#subscribe .input{
+    width: 50%;
+}
 
 .cen {
     display: flex;
@@ -55,6 +58,24 @@ hr {
 /* m e d i a */
 
 @media only screen and (max-width: 750px) {
+    #subscribe{
+        height: 60vh;
+    }
+    #subscribe .hero-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #subscribe .title{
+        font-size: 2rem;
+    }
+    #subscribe .subtitle.is-5{
+        font-size: 1rem;
+    }
+    #subscribe .input{
+        width: 100%;
+    }
     .bg {
         background: linear-gradient(rgba(232, 232, 232, 0.4),rgba(210, 210, 210, 0.7)),url("img/mobile.jpg") no-repeat fixed center / cover;
     }
